@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table,tr,td,th{
+         border: 1px solid black;
+         border-collapse: collapse;
+         padding: 10px;
+      }
+      *{
+         box-sizing: border-box;
+      }
+      .full{
+         display: flex;
+      }
+      .left{
+         width: 60%;
+         /* display: inline; */
+         padding: 20px;
+         border: 2px solid black;
+      
+      }
+      .right{
+         width: 30%;
+         border: 2px solid black;
+         padding: 20px;
+         margin-left: 10px; 
+         /* display: inline; */
+      }
+      ul{
+      }
+      ul li{
+         list-style-type: none;
+         display: inline;
+         padding: 10px;
+         
+      }
+      #nav{
+      }
+    </style>
+</head>
+<body style="background-color: rgba(137, 43, 226, 0.144);">
+    <!-- Syntax- <tag_name>data</tag_name> -->
+     <h1 id="up">Example of h1</h1>
+     <h6>Example of h6</h6>
+     <p style="color:white;background-color: black;font-family:'Courier New', Courier, monospace;font-size:larger;text-align: center;">This is a paragraph</p><hr>
+     <p title="Hello im title">This is an example of title in p</p>
+     <pre>This
+        is 
+        an 
+        example
+        of pre
+        tag
+     </pre>
+     <a href="https://www.google.com" target="_black">google</a><br/>
+     <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" alt="This is an image of nature" height="100px"/>
+     <br>
+     <b>Bold</b>
+     <strong>Strong</strong>
+     <i>Italic</i>
+     <em>Emphasized </em>
+     <mark>Marked</mark>
+     <small>small</small>
+     <del>deleted</del>
+     <ins>inserted</ins>
+     <sub>subscripted</sub>
+     <sup>superscripted</sup>
+     <blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">
+        In this chapter we will go through the <q>&lt;blockquote&gt;</q> HTML elements.
+     </blockquote>
+     <p><abbr title="World Health Organization">WHO</abbr>.This is an example of abbr tag</p>
+     <img src="https://www.edvardmunch.org/assets/img/paintings/the-scream.jpg" width="220" height="277" alt="The Scream">
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl">Right to left</bdo>
+    <p>This is an example of colors in html</p>
+     <p style="background-color:rgb(255, 0, 0); color:white">With rgb</p>
+     <p style="background-color:blueviolet; color:white">With name</p>
+     <p style="background-color:#0000FF; color:white">With hex</p>
+     <p style="background-color:hsl(150, 0%, 64%); color:white">With hsl</p>
+     <p style="background-color:hsla(9, 100%, 64%,0.8); color:white">With hsla</p>
+     <p style="border:2px dotted black;padding:10px 50px;margin:20px;">Example of border</p>
+     <a href="mailto:xyz@gmail.com" target="_blank">sending mail</a>
+     <button title="rediracting to w3schools"  onclick="document.location='https://www.w3schools.com/html/html_links.asp'">w3schools</button>
+     <p><img src="smiley.jpg" alt="Smiley face" style="float:right;width:42px;height:42px;">
+        The image will float to the right of the text.</p>
+    <p>example of favicon</p>
+        <link rel="icon" href="search.png">
+        <table>
+         <thead>
+            <tr>
+               <th colspan="2">
+                  words with their meaning
+               </th>
+            </tr>
+            <tr>
+               <th>word</th>
+               <th>meaning</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>
+                  consider
+               </td>
+               <td>
+                  deem to be
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  intend
+               </td>
+               <td>
+                  have in mind as a purpose
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  concern
+               </td>
+               <td>
+                  something that interests you because it is important
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  commit
+               </td>
+               <td>
+                  perform an act, usually with a negative connotation
+               </td>
+            </tr>
+         </tbody>
+        </table>
+        <div>
+         <p>Welcome to div</p>
+         <p>Grocery list</p>
+         <ul>
+            <li>apple</li>
+            <li>guava</li>
+            <li>banana</li>
+         </ul>
+         <p>Steps to make pasta</p>
+         <ol style="list-style-type: upper-roman;">
+            <li>Boil pasta in salted water, drain, and set aside.</li>
+            <li>Heat olive oil in a pan and sauté minced garlic until fragrant.</li>
+            <li>Add tomato puree, oregano, salt, and pepper; simmer for 5–7 minutes.</li>
+            <li>Toss cooked pasta in the sauce until evenly coated.</li>
+            <li>Serve hot with grated Parmesan cheese, if desired.</li>
+         </ol>
+      </div>
+      <iframe src="test.html" height="300"></iframe>
+      <p id="demo">hello</p>
+      <h3>Layout</h3>
+      <header>
+         Welcome to this website
+      </header>
+      <nav id="nav">
+         <ul>
+            <li>Home</li>
+            <li>Contact us</li>
+            <li>About us</li>
+            <li>login</li>
+         </ul>
+      </nav>
+      <div class="full">
+      <div class="left">
+         <section>
+            <h3>section</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem, placeat debitis vitae aperiam eveniet explicabo facilis, sed minus quis animi fugiat alias maiores cum veritatis sapiente laborum eius tenetur adipisci blanditiis nihil. Deleniti, voluptatum pariatur reiciendis laudantium accusantium perferendis magni! Inventore sed tempore praesentium porro distinctio accusamus, cum nam doloribus repellat quam rerum. Rerum quos distinctio omnis inventore, quidem similique ut minima pariatur.</p>
+   
+         </section>
+         <article>
+            <h3>article</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit vitae ducimus dolores porro aperiam facilis.</p>
+         </article>
+
+      </div>
+      <div class="right">
+
+         <aside>
+            <h3>aside</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus natus maiores distinctio harum autem reiciendis a officiis perspiciatis ullam molestiae expedita totam iusto possimus veniam doloremque ad, ipsa voluptatem consequuntur.</p>
+   
+         </aside>
+      </div>
+   </div>
+   <footer>
+      <h3>Footer</h3>
+      <address>
+         Written by Srushti Raval<br>
+         Visit us at <a href="test.html">test</a>
+      </address>
+   </footer>
+
+     <a href="#up">Up</a>
+    </body>
+    <script>
+      let demo=document.getElementById('demo')
+      demo.innerHTML="Welcome to js";
+      demo.style.backgroundColor='blue'
+      demo.style.color='white'
+      demo.style.padding='20px'
+    </script>
+</html>

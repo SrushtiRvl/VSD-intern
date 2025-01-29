@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    background: rgb(63,184,251);
+    background: radial-gradient(circle, rgba(63,184,251,1) 0%, rgba(70,101,252,1) 100%);
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    width: 100%;
+    margin:3%;
+}
+.title{
+    display: inline;
+    background-color: white;
+    padding: 1%;
+    border-radius: 3%;
+}
+.links{
+    color: black;
+}
+nav{
+    background-color: white;
+
+}
+nav ul{
+    display: flex;
+    justify-content: right; 
+    padding: 1.5%;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.dropbtn{
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+a:visited{
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  .dropdown-content a:hover {background-color: lightgray}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+nav ul li{
+    list-style-type: none;
+    text-decoration: underline;
+    /* color: white; */
+    padding: 0px 10px;
+    font-size: 3vh;
+}
+table{
+    margin:10px auto;
+    /* background-color: rgba(137, 43, 226, 0.199); */
+}
+.headings{
+    font-size: larger;
+}
+.tbl{
+    background-color: black;
+    padding:3px;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+    
+}
+.tbl td,.tbl th{
+    text-align: center;
+    padding: 1%;
+    background-color:white;
+    border: 2px solid black;
+}
+.inp-form{
+    /* background-color: rgba(137, 43, 226, 0.199); */
+    border:5px solid black;
+    /* border-radius: 1%; */
+    padding:10px;
+    width: 25%;
+}
+
+.right{
+    text-align: right;
+}
+.inp-form td,.inp-form th{
+    padding: 1.5%;
+    margin: 10%;
+}
+#submit{
+    background-color: lightgreen;
+    margin: 1%;
+}
+.right-btn{
+    text-align: right;
+}

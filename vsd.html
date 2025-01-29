@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSD</title>
+    <link rel="stylesheet" href="css/vsd.css">
+</head>
+<body>
+    <header>
+        <h2 class="title">VSD Technologies Pvt. Ltd</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="test.html" class="links">Home</a></li>
+            <li>
+                <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                    <a href="https://www.google.com/" target="_blank" class="links">Google</a>
+                    <a href="https://www.w3schools.com/" class="links">W3schools</a>
+                    <a href="https://www.javatpoint.com/" class="links">Javatpoint</a>
+                </div>
+            </div></li> 
+            <li>About us</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+    <table class="tbl">
+        <thead>
+            <tr >
+                <th colspan="7"class="headings">
+                    Contact information
+                </th>
+            </tr>
+            <tr>
+                <th>ID number</th>
+                <th>Name</th>
+                <th>Mobile number</th>
+                <th>Date of Birth</th>
+                <th>Country</th>
+                <th>Gender</th>
+                <th>Shift Preferences</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>John Smith</td>
+                <td>9876543210</td>
+                <td>1990-05-12</td>
+                <td>USA</td>
+                <td>Male</td>
+                <td>Evening</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Emily Johnson</td>
+                <td>9123456789</td>
+                <td>1988-11-24</td>
+                <td>UK</td>
+                <td>Female</td>
+                <td>Morning</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Raj Patel</td>
+                <td>9812345678</td>
+                <td>1995-07-15</td>
+                <td>India</td>
+                <td>Male</td>
+                <td>Night</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Sarah Davis</td>
+                <td>8796543210</td>
+                <td>1992-03-20</td>
+                <td >Canada</td>
+                <td>Female</td>
+                <td>Morning</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<form action="">
+    <table class="inp-form">
+        <thead>
+            <tr >
+                <th colspan="2" class="headings" style="border-bottom: 1px solid rgba(0, 0, 0, 0.384);">Contact information</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="right">ID number:</td>
+                <td><input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td class="right">Name:</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td class="right">Mobile number:</td>
+                <td><input type="tel" name="" id=""></td>
+            </tr>
+            <tr>
+                <td class="right">Date of Birth:</td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+           
+            </tr>
+            <tr>
+                <td class="right">Country:</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Please Select</option>
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">Australia</option>
+                        <option value="">UAE</option>
+                        <option value="">UK</option>
+                        <option value="">Canada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Gender:</td>
+                <td>
+                    <input type="radio" name="gender" id="" value="">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="" value="">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Shift Preferences:</td>
+                <td>
+                    <input type="checkbox" name="morning" id="" value="">
+                    <label for="morning">Morning Shift</label><br>
+                    <input type="checkbox" name="evening" id="" value="">
+                    <label for="evening">Evening Shift</label><br>
+                    <input type="checkbox" name="night" id="" value="">
+                    <label for="night">Night Shift</label><br>
+                    <input type="checkbox" name="rotational" id="" value="">
+                    <label for="rotational">Rotational Shift</label>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="right-btn">
+                    <button type="reset" id="reset">Reset</button>
+                    <button type="submit" id="submit">Submit</button>
+
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</html>
